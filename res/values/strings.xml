@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_title">Android System Information</string>
+    <string name="app_name">Android System Information</string>
+    <string name="telephony_title">Telephony</string>
+    <string name="telephony_cdma_title">CDMA Cell Location</string>
+    <string name="telephony_gsm_title">GSM Cell Location</string>
+    <string name="telephony_signal_strength_title">Signal Strength</string>
+    <string name="display_title">Display</string>
+    <string name="memory_title">Memory</string>
+    <string name="storage_title">Storage</string>    
+    <string name="network_title">Network</string>
+    <string name="os_title">Hardware</string>
+
+    <string-array name="telephony_items">
+        <item>Operator Name</item>
+        <item>Operator ID</item>
+        <item>Service State</item>
+        <item>CDMA Cell Location</item>
+        <item>GSM Cell Location</item>
+    </string-array>
+    <string-array name="cdma_items">
+        <item>Base Station ID</item>
+        <item>Base Station GPS Coordinates</item>
+        <item>Network ID</item>
+        <item>System ID</item>
+    </string-array>
+    <string-array name="signal_strength_items">
+        <item>CDMA RSSI</item>
+        <item>CDMA Ec/Io</item>
+        <item>EVDO RSSI</item>
+        <item>EVDO Ec/Io</item>
+        <item>Signal To Noise Ration</item>
+        <item>GSM Bit Error Rate</item>
+        <item>GSM Signal Strength</item>
+    </string-array>
+    <string-array name="gsm_items">
+        <item>Cell ID</item>
+        <item>Location Area Code</item>
+    </string-array>
+    <string-array name="menu_items">
+        <item>Telephony</item>
+        <item>Memory</item>
+        <item>Storage</item>
+        <item>Network</item>
+        <item>Display</item>
+        <item>Hardware</item>
+    </string-array>
+    <string-array name="display_items">
+        <item>Density</item>
+        <item>Screen Size</item>
+    </string-array>
+    <string-array name="memory_items">
+        <item>Available Memory</item>
+    </string-array>
+    <string-array name="storage_items">
+        <item>Free Space</item>
+        <item>Total Space</item>
+    </string-array>    
+    <string-array name="network_items">
+        <item>IP Address</item>
+        <item>Host Name</item>
+        <item>Canonical Host Name</item>
+    </string-array>
+    <string-array name="gps_items">
+        <item># of GPS Satellites</item>
+    </string-array>
+    <string-array name="os_items">
+        <item>Board</item>
+        <item>Bootloader</item>
+        <item>Brand</item>
+        <item>Device</item>
+        <item>Display</item>
+        <item>Fingerprint</item>
+        <item>Hardware</item>
+        <item>Manufacturer</item>
+        <item>Model</item>
+        <item>Product</item>
+    </string-array>
+
+</resources>
